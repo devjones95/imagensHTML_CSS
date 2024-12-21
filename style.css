@@ -1,0 +1,40 @@
+.img-logo {
+    width: 400px;
+}
+
+body {
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 700px;
+    margin: auto;
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*é referente se a imagem vai scrollar junto ou ficar fixa no body*/
+    background-size: cover; /*Cobre todo o espaço, mesmo que algum pedaço da imagem fique sem aparecer*/
+    background-position: right bottom; /*fixo a imagem pela direita e pela parte de baixo*/
+}
+
+.img-html{
+    float: left;
+
+}
+
+.img-css{
+    float: right;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
